@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/calculator-css.css">
+    <title>Marks calculator</title>
+    <style>
+    </style>
+</head>
+<body>
+    <div id="main">
+    <form action="" name="myForm">    
+        <div class="topPara">
+            <h1>Marks</h1>
+        </div>
+        <div>
+        <label for="text">Subject1:</label>
+        <input type="text" id="sub1"name="sub1" placeholder="Subject Name" >
+        <input type="text" Required name="" id="marks1"placeholder="Enter marks">
+    </div>
+    <div>
+        <label for="text">Subject1:</label>
+        <input type="text" id='sub2' placeholder="Subject Name" >
+        <input type="text" Required name="" id="marks2"placeholder="Enter marks">
+    </div>
+    <div>
+        <label for="text">Subject1:</label>
+        <input type="text" id='sub3' placeholder="Subject Name" >
+        <input type="text" Required name="" id="marks3"placeholder="Enter marks">
+    </div>
+    <div>
+        <label for="text">Subject1:</label>
+        <input type="text" id='sub4' placeholder="Subject Name" >
+        <input type="text" name="" id="marks4"placeholder="Enter marks">
+    </div>
+    <div>
+        <label for="text">Subject1:</label>
+        <input type="text" id='sub5' placeholder="Subject Name" >
+        <input type="text" name="" id="marks5"placeholder="Enter marks">
+    </div>
+    <div>
+        <label for="text">Subject1:</label>
+        <input type="text" id='sub6' placeholder="Subject Name" >
+        <input type="text" name="" id="marks6"placeholder="Enter marks">
+    </div>
+    
+
+    <div id="btn">
+       <button type="button" id="totalScore" onclick="totalMarks()">Total</button>
+       <!-- <button type="button" onclick="average()">Average</button> -->
+       <button type="button" onclick="percent()" >Percentage</button>
+       <!-- <button type="button" onclick="gpa()">GPA</button> -->
+       <button type="button" onclick="gpa()" id="" >GPA</button>
+    </div>
+</div>
+    <div id="result">
+        <div id="" class="topPara"><h1>Result</h1></div>
+        <div id="" class="topPara"><h1>Total</h1></div>
+       <h2><div id="total"></div></h2>
+        <!-- <div id="" class="topPara"><h1>Average</h1></div>
+        <h2><div id="average"></div></h2> -->
+        <div id="" class="topPara"><h1>Percentage</h1></div>
+        <h2><div id="percent"></div></h2>
+        <div id="" class="topPara"><h1>GPA</h1></div>
+        <h2><div id="grade"></div></h2>
+    </form>
+
+    </div>
+    <script src="js/calculator-script.js"></script>
+</body>
+</html>
